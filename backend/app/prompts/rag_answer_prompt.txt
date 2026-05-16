@@ -1,0 +1,13 @@
+Use the retrieved policy context to answer the customer's travel support question.
+
+Customer question:
+{question}
+
+Retrieved policy context:
+{context}
+
+Answer requirements:
+- Use only the context provided.
+- Explain the answer in simple language.
+- Ask for the booking reference if the answer depends on a specific booking.
+- If the context is not enough, say that a human support ticket should be created.
