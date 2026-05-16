@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+const API_BASE = "http://localhost:8010";
 
 export async function sendChatMessage({ message, conversationId, userId = 1 }) {
   const response = await fetch(`${API_BASE}/chat/message`, {

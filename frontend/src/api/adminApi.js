@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+const API_BASE = "http://localhost:8010";
 
 export async function getDashboardMetrics() {
   const response = await fetch(`${API_BASE}/admin/dashboard/metrics`);
